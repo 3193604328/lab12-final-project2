@@ -31,7 +31,7 @@ services:
       - full-stack
 
   tduck-platform:
-    image: "tduckcloud/tduck-platform"
+    image: "ccr.ccs.tencentyun.com/lab12-final-project/tduck-platform"
     container_name: tduck-platform
     networks:
       - tduck-network
