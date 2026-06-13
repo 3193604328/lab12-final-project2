@@ -70,7 +70,7 @@ jobs:
           username: ${{ secrets.HOST_USER_NAME }}
           key: ${{ secrets.HOST_SSH_KEY }}
           source: "docker-compose.yaml, init-db"
-          target: "/root/lab12-final-project"
+          target: "/root/lab12-final-project2"
           strip_components: 0
 
 
