@@ -83,7 +83,7 @@ jobs:
           username: ${{ secrets.HOST_USER_NAME }}
           key: ${{ secrets.HOST_SSH_KEY }}
           script: |
-            cd /root/lab12-final-project
+            cd /root/lab12-final-project2
             docker-compose down
             docker-compose pull
             docker-compose up -d --remove-orphans
