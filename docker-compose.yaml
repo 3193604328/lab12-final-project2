@@ -1,6 +1,6 @@
 services:
   nginx:
-    image: ccr.ccs.tencentyun.com/lab12-final-project/personal-website2
+    image: yiguanlin/personal-website2
     container_name: nginx-website2
     ports:
       - "8083:8080"
@@ -31,7 +31,7 @@ services:
       - full-stack
 
   tduck-platform:
-    image: "ccr.ccs.tencentyun.com/lab12-final-project/tduck-platform"
+    image: "tduckcloud/tduck-platform"
     container_name: tduck-platform
     networks:
       - tduck-network
