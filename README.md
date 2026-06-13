@@ -25,7 +25,7 @@
 
 | Application | URL |
 |-------------|-----|
-| Personal Website |  [http://139.199.162.99:8081](http://139.199.162.99:8081) |
+| Personal Website |  [http://139.199.162.99:8083](http://139.199.162.99:8083) |
 | Todo App |  [http://139.199.162.99:8082](http://139.199.162.99:8082) |
 
 ---
@@ -33,7 +33,7 @@
 ## 📂 Repository Structure
 
 ```
-lab12-final-project/
+lab12-final-project2/
 │
 ├── index.html               # Personal website (个人介绍网站)
 ├── photo1.jpg                 # Profile photo (个人照片)
@@ -71,7 +71,7 @@ lab12-final-project/
 
 ```bash
 # Clone the repository
-git clone https://github.com/3193604328/lab12-final-project.git
+git clone https://github.com/3193604328/lab12-final-project2.git
 
 # Start all services
 docker-compose up -d
